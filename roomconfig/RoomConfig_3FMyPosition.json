@@ -1,0 +1,61 @@
+{
+    "Room":[
+        {
+            "name":"3FMyposition",
+            "Room_id":1,
+            "floor":1,
+            "depth":40,
+            "width":40,
+            "height":40,
+            "LS":[
+            
+                {
+                    "name":"Speedway",
+                    "LS_id":1,
+                    "LS_time_acc":10,
+                    "LS_space_acc":10,
+                    "LS_acc":10,
+                    "coordinate":[
+                        {
+                            "x":0,
+                            "y":20,
+                            "z":20
+                        },
+                        
+                        {
+                            "x":0,
+                            "y":20,
+                            "z":20
+                        }                        
+                    ]
+                },
+            
+                {
+                    "name":"HumanSensor",               
+                    "LS_id":2,
+                    "LS_time_acc":10,
+                    "LS_space_acc":10,
+                    "LS_acc":10,                
+                    "coordinate":{
+                        "x":20,
+                        "y":20,
+                        "z":20
+                    }               
+                },            
+            
+                {
+                    "name":"Camera",
+                    "LS_id":3,
+                    "LS_time_acc":10,
+                    "LS_space_acc":10,
+                    "LS_acc":10,               
+                    "coordinate":{
+                        "x":20,
+                        "y":20,
+                        "z":20
+                    }               
+                }            
+            ]
+        }
+    ]
+}

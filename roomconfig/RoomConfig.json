@@ -1,0 +1,84 @@
+{
+    "Room":[
+        {
+            "name":"4F-SeminarRoom",
+            "Room_id":1,
+            "floor":4,
+	    "width":576,
+            "depth":1026,
+            "height":270,
+            "LS":[
+            
+                {
+                    "name":"Speedway",
+                    "LS_id":1,
+                    "LS_time_acc":10,
+                    "LS_space_acc":10,
+                    "LS_acc":10,
+                    "coordinate":[
+			{
+                        	"x":1,
+                        	"y":480,
+                        	"z":100
+                    	},
+
+			{
+				"x":370,
+				"y":1,
+				"z":85
+			},
+
+			{
+				"x":235,
+				"y":1025,
+				"z":90
+			},
+
+                        {
+                                "x":575,
+                                "y":550,
+                                "z":80
+                        }
+		    ]
+                },
+            
+                {
+                    "name":"HumanSensor",               
+                    "LS_id":2,
+                    "LS_time_acc":10,
+                    "LS_space_acc":10,
+                    "LS_acc":10,                
+                    "coordinate":[
+			{
+                        	"x":370,
+                        	"y":270,
+                        	"z":75
+                    	},
+                        
+			{
+                        	"x":370,
+                        	"y":270,
+                        	"z":75
+                    	}                        
+		    ]            
+                    
+                },            
+            
+                {
+                    "name":"Camera",
+                    "LS_id":3,
+                    "LS_time_acc":10,
+                    "LS_space_acc":10,
+                    "LS_acc":10,               
+                    "coordinate":[
+			{
+                        	"x":370,
+                        	"y":420,
+                       	 	"z":75
+			}
+                    ]               
+                }            
+            ]
+        }
+    ]
+}
